@@ -1,5 +1,11 @@
 <app-header></app-header>
-<app-pop-up></app-pop-up>
-<app-date-picker></app-date-picker>
-<app-schedule></app-schedule>
-<router-outlet></router-outlet>
+<div class="flex-container">
+  <div class="flex-child">
+    <app-pop-up></app-pop-up>
+    <app-date-picker></app-date-picker>
+  </div>
+  <div class="flex-child">
+    <app-schedule></app-schedule>
+    <router-outlet></router-outlet>
+  </div>
+</div>
